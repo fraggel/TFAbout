@@ -2,12 +2,54 @@
 <resources>
 
     <string name="app_name">TFAbout</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+
+    <string name="title_section1">EQUIPO</string>
+    <string name="title_section2">CAMBIOS</string>
+    <string name="title_section3">ENLACES</string>
+    <!-- Modo swipe-->
+    <string name="title_activity_about_swipe">NOMBRE DE LA ROM</string>
+
+    <!-- Modo drawer-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="team">
+    Bienvenido a TF Android Developers:\n
+
+En TF Android developers, somos un grupo de entusiastas Android unidos para ofrecerte todo nuestro conocimiento y trabajo centrado en la optimización y creación de ROMS basadas en Android, de momento para Jiayu.\n
+
+Lo que podemos ofrecerte es una gran cantidad y calidad de ROMS realizadas y probadas minuciosamente intentado pulir los detalles que marcan la diferencia.\n
+
+También encontrarás videos, reviews, tutoriales para hacerte lo más sencillo posible los procesos de instalación y actualización así como poder resolver las dudas que puedas tener.\n
+
+Trabajamos muy directamente con el desarrollador y fabricante de los terminales Jiayu, esto nos permite disponer de auténticas exclusivas como el código fuente para los diversos terminales, con lo que poder ofrecerte modificaciones de ROMS, Kernel… que en otros sitios de momento no es posible obtener.\n
+
+De nuevo darte la bienvenida y espero encuentres en Team Force tu casa y todo lo que esperabas cuando compraste tu terminal Jiayu.\n
+
+Como se puede leer nuestro trabajo actual está orientado a terminales Jiayu, en un futuro se tiene pensado el desarrollo de otros modelos y fabricantes.\n\n
+
+En estos momentos TF Android developers lo formamos los siguientes:\n
+
+Desarrollo: Fraggel, Erfae y Newton\n
+
+Diseño: Menkato\n
+
+Web: Siulwon\n
+
+Redes Sociales: Siulwon\n
+
+Contenido: Borx\n
+
+Reviews:\n
+
+International Manager:\n
+
+Grupo de Betatesters.\n
+    </string>
 
 </resources>
