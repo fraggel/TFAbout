@@ -3,11 +3,11 @@
 
     <string name="app_name">TFAbout</string>
 
-    <string name="title_section1">EQUIPO</string>
-    <string name="title_section2">CAMBIOS</string>
-    <string name="title_section3">ENLACES</string>
+    <string name="title_section1">THE TEAM</string>
+    <string name="title_section2">CHANGELOG</string>
+    <string name="title_section3">LINKS</string>
     <!-- Modo swipe-->
-    <string name="title_activity_about_swipe">NOMBRE DE LA ROM</string>
+    <string name="title_activity_about_swipe">ROMS NAME</string>
 
     <!-- Modo drawer-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -18,38 +18,46 @@
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
 
+
+    <string name="urlWeb">http://www.tfandroid.es</string>
+    <string name="urlFacebook">https://www.facebook.com/TeamForceGroup</string>
+    <string name="urlGoogle">https://plus.google.com/u/0/101598355663549822553/posts</string>
+    <string name="urlRss">http://tfandroid.es/feed/</string>
+    <string name="urlTwitter">https://twitter.com/TeamForceGroup</string>
+    <string name="urlYoutube">http://www.youtube.com/user/TeamForceGroup</string>
+
     <string name="team">
-    Bienvenido a TF Android Developers:\n
+    Welcome to Team Force:\n\n
 
-En TF Android developers, somos un grupo de entusiastas Android unidos para ofrecerte todo nuestro conocimiento y trabajo centrado en la optimización y creación de ROMS basadas en Android, de momento para Jiayu.\n
+In Team Force, we are a united group of Android enthusiasts can offer our knowledge and work focused on the optimization and capacity based on Android ROMS, from time to Jiayu.\n\n
 
-Lo que podemos ofrecerte es una gran cantidad y calidad de ROMS realizadas y probadas minuciosamente intentado pulir los detalles que marcan la diferencia.\n
+What we can offer is a large amount and quality made ​​and thoroughly tested ROMS tried to polish the details that make the difference.\n\n
 
-También encontrarás videos, reviews, tutoriales para hacerte lo más sencillo posible los procesos de instalación y actualización así como poder resolver las dudas que puedas tener.\n
+You will also find videos, reviews, tutorials to make the simplest possible installation and upgrade processes and to resolve any doubts you may have.\n\n
 
-Trabajamos muy directamente con el desarrollador y fabricante de los terminales Jiayu, esto nos permite disponer de auténticas exclusivas como el código fuente para los diversos terminales, con lo que poder ofrecerte modificaciones de ROMS, Kernel… que en otros sitios de momento no es posible obtener.\n
+We work very closely with the developer and manufacturer of terminals Jiayu, this allows us to have exclusive authentic as the source code for the various terminals, which can bring changes ROMS, Kernel… in other sites is currently not possible to obtain.\n\n
 
-De nuevo darte la bienvenida y espero encuentres en Team Force tu casa y todo lo que esperabas cuando compraste tu terminal Jiayu.\n
+Again welcome you and hope you find your place in Team Force and everything you expected when you bought your Jiayu terminal.\n\n
 
-Como se puede leer nuestro trabajo actual está orientado a terminales Jiayu, en un futuro se tiene pensado el desarrollo de otros modelos y fabricantes.\n\n
+As you can read our current work is aimed at Jiayu terminals, in the future it plans to develop other models and manufacturers.\n\n
 
-En estos momentos TF Android developers lo formamos los siguientes:\n
+Right now what we are Team Force the following:\n\n
 
-Desarrollo: Fraggel, Erfae y Newton\n
+Development: Fraggel, Erfae and Newton\n
 
-Diseño: Menkato\n
+Design: Menkato\n
 
 Web: Siulwon\n
 
-Redes Sociales: Siulwon\n
+Social Network: Siulwon\n
 
-Contenido: Borx\n
+Content: Borx\n
 
 Reviews:\n
 
 International Manager:\n
 
-Grupo de Betatesters.\n
+And Betatesters Group\n
     </string>
 
 </resources>

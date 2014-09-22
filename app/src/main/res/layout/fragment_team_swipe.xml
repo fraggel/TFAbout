@@ -17,10 +17,10 @@
     tools:context="about.tfad.fraggel.es.tfabout.aboutSwipe$PlaceholderFragment">
 
     <ImageButton
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="center"
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonLogo"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -30,6 +30,7 @@
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="@string/team"
         android:autoText="false"
         android:editable="false"

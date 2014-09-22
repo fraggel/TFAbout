@@ -16,130 +16,142 @@
 
     tools:context="about.tfad.fraggel.es.tfabout.aboutSwipe$PlaceholderFragment">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageButton
+               <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="center"
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButtonLogo"
                 android:layout_span="2"
                 android:background="@drawable/logoteam"/>
-        </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView0"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButtonWeb"
+                android:layout_span="1"
                 android:background="@drawable/w"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="http://www.tfandroid.es"
+                android:text="Web"
+                android:layout_span="1"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView3"/>
-        </TableRow>
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+                android:id="@+id/textViewWeb"
+                />
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView1"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButtonFacebook"
+                android:paddingLeft="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_span="1"
                 android:background="@drawable/f"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="https://www.facebook.com/TeamForceGroup"
+                android:text="Facebook"
+                android:layout_span="1"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView4"/>
+                android:id="@+id/textViewFacebook"/>
         </TableRow>
 
         <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView2"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_span="1"
+                android:id="@+id/imageButtonGoogle"
                 android:background="@drawable/g"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_span="1"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="https://plus.google.com/u/0/101598355663549822553/posts"
+                android:text="Google+"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView5"/>
-        </TableRow>
+                android:id="@+id/textViewGoogle"/>
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView3"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_span="1"
+                android:id="@+id/imageButtonRss"
                 android:background="@drawable/r"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_span="1"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="http://tfandroid.es/feed/"
+                android:text="Rss"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView6"/>
+                android:id="@+id/textViewRss"/>
         </TableRow>
 
         <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView4"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_span="1"
+                android:id="@+id/imageButtonTwitter"
                 android:background="@drawable/t"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_span="1"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="https://twitter.com/TeamForceGroup"
+                android:text="Twitter"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView7"/>
-        </TableRow>
+                android:id="@+id/textViewTwitter"/>
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:id="@+id/imageView5"
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_span="1"
+                android:id="@+id/imageButtonYoutube"
                 android:background="@drawable/y"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_span="1"
                 android:textAppearance="?android:attr/textAppearance"
-                android:text="http://www.youtube.com/user/TeamForceGroup"
+                android:text="Youtube"
                 android:textColor="@android:color/white"
-                android:id="@+id/textView8"/>
+                android:id="@+id/textViewYoutube"/>
         </TableRow>
 
 

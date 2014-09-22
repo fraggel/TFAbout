@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="urlRom">http://tfandroid.es/rom</string>
-    <string name="changelog">"English MIUI ROM 4.9.19 Full Changelog:\n\n
+    <string name="changelog">"Castellano MIUI ROM 4.9.19 Full Changelog:\n\n
 Note: Changelog marked out for Mi 3/4  is for MIUI 6, otherwise, it's for MIUI V5.\n
 
 \n[System]\n

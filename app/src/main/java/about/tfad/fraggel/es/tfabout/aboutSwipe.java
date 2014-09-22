@@ -7,6 +7,8 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -19,7 +21,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class aboutSwipe extends Activity implements ActionBar.TabListener {
+public class aboutSwipe extends Activity implements ActionBar.TabListener{
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -62,7 +64,6 @@ public class aboutSwipe extends Activity implements ActionBar.TabListener {
                 actionBar.setSelectedNavigationItem(position);
             }
         });
-
         // For each of the sections in the app, add a tab to the action bar.
         for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
             // Create a tab with text corresponding to the page title defined by
@@ -152,7 +153,7 @@ public class aboutSwipe extends Activity implements ActionBar.TabListener {
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class PlaceholderFragment extends Fragment implements View.OnClickListener {
         /**
          * The fragment argument representing the section number for this
          * fragment.
@@ -171,31 +172,79 @@ public class aboutSwipe extends Activity implements ActionBar.TabListener {
             return fragment;
         }
 
-        public PlaceholderFragment() {
+        public PlaceholderFragment(){
         }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
 
+
             switch (getArguments().getInt(ARG_SECTION_NUMBER)) {
                 case 1:
                     View rootView = inflater.inflate(R.layout.fragment_team_swipe, container,
                             false);
-
+                    rootView.findViewById(R.id.imageButtonLogo).setOnClickListener(this);
                     return rootView;
                 case 2:
                     View rootView2 = inflater.inflate(R.layout.fragment_changelog_swipe, container,
                             false);
+                    rootView2.findViewById(R.id.imageButtonRom).setOnClickListener(this);
                     return rootView2;
 
                 case 3:
                     View rootView3 = inflater.inflate(R.layout.fragment_links_swipe, container,
                             false);
+                    rootView3.findViewById(R.id.imageButtonLogo).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonFacebook).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonGoogle).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonRss).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonTwitter).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonWeb).setOnClickListener(this);
+                    rootView3.findViewById(R.id.imageButtonYoutube).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewFacebook).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewGoogle).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewRss).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewTwitter).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewWeb).setOnClickListener(this);
+                    rootView3.findViewById(R.id.textViewYoutube).setOnClickListener(this);
                     return rootView3;
                 default:
                     return null;
             }
+        }
+
+        @Override
+        public void onClick(View view) {
+            int id=view.getId();
+            String url =null;
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            if(id==R.id.imageButtonLogo){
+                url=getResources().getString(R.string.urlWeb);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonRom){
+                url=getResources().getString(R.string.urlRom);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonFacebook || id==R.id.textViewFacebook){
+                url=getResources().getString(R.string.urlFacebook);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonGoogle || id==R.id.textViewGoogle){
+                url=getResources().getString(R.string.urlGoogle);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonRss || id==R.id.textViewRss){
+                url=getResources().getString(R.string.urlRss);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonTwitter || id==R.id.textViewTwitter){
+                url=getResources().getString(R.string.urlTwitter);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonWeb || id==R.id.textViewWeb){
+                url=getResources().getString(R.string.urlWeb);
+                i.setData(Uri.parse(url));
+            }if(id==R.id.imageButtonYoutube || id==R.id.textViewYoutube){
+                url=getResources().getString(R.string.urlYoutube);
+                i.setData(Uri.parse(url));
+            }
+            startActivity(i);
         }
     }
 
