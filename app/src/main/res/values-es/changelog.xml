@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="urlRom">http://tfandroid.es/rom</string>
-    <string name="changelog">"Castellano MIUI ROM 4.9.19 Full Changelog:\n\n
-Note: Changelog marked out for Mi 3/4  is for MIUI 6, otherwise, it's for MIUI V5.\n
-
-\n[System]\n
-New - Mi Pad updated to MIUI 6 \n
-Fix - QQ video chat could not switch to speaker \n
-Fix - Some devices often lost signal after 4.8.27\n
-
-[Message]
-Fix - Display error of message sending failure icon \n
-
-\n[Theme]\n
-Fix - Sometimes, purchase page showed after selecting Try for free\n
-
-\n[Music]\n
-New - Animation when swiping the playing bar in the bottom up and down (Mi 3/4 W) (9-17)\n
-New - Blank page UI (Mi 3/4 W) (9-17)\n
-New - Entering/Exiting animation of Playing page (Mi 3/4 W) (9-17)\n
-New - Wave animation of the song that's being played currently (Mi 3/4 W) (9-17)\n
-New - Sleep timer (Could be set in Music settings and music playing page) (Mi 3/4 W) (9-17)\n
-Optimization - Entering/Exiting animation when pressing playlists in Online section (Mi 3/4 W) (9-17)\n
-Optimization - Cover switch animation in playing page (Mi 3/4 W) (9-17)\n
-Optimization - Split level animation of startpage playlists (Mi 3/4 W) (9-17)\n
-
-\n[Updater]\n
-Fix - Sometimes could not update (Mi 3/4 W) (9-17)\n
-
-\n[Explorer]\n
-Optimization - Start page UI (Mi 3/4 W) (9-17)\n
-
-\n[Browser]\n
-New - Convert webpage link to QR code (Mi 3/4 W) (9-16)\n
-Fix - Bookmark cloud backup and sync (Mi 3/4 W) (9-16)\n
-
-\n[Clock/Calculator]\n
-Optimization - Prompt window style for Alarm, world clock, and Timer (Mi 3/4 W) (9-17)\n
-Optimization - UI adjustment of alarm page (Mi 3/4 W) (9-17)\n
-Optimization - Launching speed of clock (Mi 3/4 W) (9-17)\n
-Fix - Sometimes, clock face animation lagged (Mi 3/4 W) (9-17)\n
-
-\n[Mi Cloud]\n
-Fix - Mi Cloud FC in some cases (Mi 3/4 W) (9-17)\n"</string>
+    <string name="urlRom">http://tfandroid.es/rom-blusens-smart-pro-lewa-5-1-08-11-14</string>
+    <string name="changelog">""Lewa 5.1 (Android 4.4.2) 08.11.14 Cambios:\n\n
+- Corregido bug en captura de pantalla y lags en llamadas.
+- Mejorado WiFi y consumo de batería.\n
+- Arreglados Cierres en SystemUi.\n
+- Corregidos filtros en cámara.\n
+- Corregidos fallos en contactos.\n
+- Soporte Init.d \n
+- Busybox\n
+- Root en Adb""</string>
 </resources>
